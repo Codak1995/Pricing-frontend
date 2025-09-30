@@ -1,0 +1,238 @@
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+h4, h1, h2, h3, p {
+    margin: 0px;
+}
+#outside-container {
+    height: 710px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    }
+#card-container {
+    height: 465px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: auto;
+    position: relative;
+    margin-top: 10px;
+    }
+
+#left-box {
+    height: 235px;
+    width: 100%;
+    background-color: #2ab2af;
+    
+}
+
+#right-box {
+    height: 235px;
+    width: 100%;
+    background-color: #2ebfbd;
+}
+
+#outside-container h2 {
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 30px;
+    color: #2ab2af;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#outside-container h4 {
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 14px;
+    color: #c0df34;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#outside-container p {
+    font-family: 'Karla';
+    font-weight: 300;
+    font-size: 14px;
+    color: #98a6bd;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 1.5;
+    width: 80%;
+}
+
+#right-box h3 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+
+ul {
+    list-style: none;
+    color: white;
+    padding-left: 20px;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+ul li {
+    padding-bottom: 3px;
+}
+
+#left-box h3 {
+    color: white;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+#left-box h1 {
+    color: white;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#price {
+color: white;
+font-size: 30px;
+padding-left: 20px;
+font-weight: 400;
+}
+
+#per {
+    color: rgb(243, 235, 235);
+    position: relative;
+    font-size: 12px;
+    top: -5px;
+}
+
+#price, #per {
+    display: inline-block;
+}
+ #pricing {
+    padding-bottom: 10px;
+ }
+#price, #per {
+    display: inline-block;
+}
+#access {
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    font-size: 15px;
+}
+#left-box h1, span {
+    position: relative;
+    top: 3px;
+
+}
+
+button {
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 50px;
+    font-size: 14px;
+    font-family: 'karla';
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #9dca08;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media (min-width: 390px) {
+    #outside-container {
+        width: 80vw;
+        height: auto;
+    }
+
+       button {
+        width: 90%;
+        padding: 15px 100;
+        margin: 20px 5%;
+    }
+}
+
+@media (min-width: 650px) {
+    #outside-container {
+        width: 60vw;
+        height: 440px;
+    }
+
+    #card-container {
+        height: 260px;
+         flex-direction: row;
+    }
+    #left-box, #right-box {
+        width: 50%;
+        height: 100%;
+    }
+    #outside-container p {
+        font-weight: 250;
+    }
+
+    button {
+        width: 60%;
+        padding: 15px 10px;
+        margin: 0px 5%;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 850px) {
+    #outside-container {
+        width: 60vw;
+        height: 400px;
+    }
+
+    #card-container {
+        height: 260px;
+    }
+    #left-box, #right-box {
+        width: 50%;
+    }
+    #outside-container p {
+        font-weight: 250;
+    }
+
+    button {
+        width: 60%;
+        padding: 15px 10px;
+        margin: 0px 5%;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 930px) {
+    #outside-container {
+        width: 60vw;
+        height: 350px;
+    }
+
+    #card-container {
+        height: auto;
+    }
+    #left-box, #right-box {
+        width: 50%;
+        height: auto;
+    }
+    #outside-container p {
+        font-weight: 250;
+    }
+}
