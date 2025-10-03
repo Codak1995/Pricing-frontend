@@ -70,7 +70,6 @@ h4, h1, h2, h3, p {
     color: white;
     padding-left: 20px;
     padding-top: 20px;
-    padding-bottom: 10px;
     font-weight: 400;
 }
 
@@ -93,7 +92,6 @@ ul li {
     font-weight: 400;
     font-size: 1.5em;
     padding-top: 20px;
-    margin-bottom: 10px;
 }
 
 #left-box h1 {
@@ -113,24 +111,20 @@ font-weight: 400;
 #per {
     color: rgb(243, 235, 235);
     position: relative;
-    font-size: 12px;
-    top: -5px;
+    font-size: 17px;
+    top: -10px;
 }
 
 #price, #per {
     display: inline-block;
 }
- #pricing {
-    padding-bottom: 10px;
- }
 #price, #per {
     display: inline-block;
 }
 #access {
     color: white;
     padding-left: 20px;
-    padding-bottom: 14px;
-    font-size: 15px;
+    font-size: 10px;
 }
 #left-box h1, span {
     position: relative;
@@ -175,6 +169,9 @@ button:hover {
         height: 440px;
     }
 
+    #access {
+        padding-bottom: 15px;
+    }
     #card-container {
         height: 260px;
          flex-direction: row;
