@@ -230,7 +230,7 @@ button:hover {
     }
     #left-box, #right-box {
         width: 50%;
-        height: auto;
+        height: 250px;
     }
     #outside-container p {
         font-weight: 250;
